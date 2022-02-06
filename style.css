@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Spartan:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700&family=Spartan:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Open+Sans&family=Poppins:wght@200;400;600&family=Spartan:wght@400;700&display=swap");
+
+body {
+  font-family: barlow;
+  color: hsl(213, 9%, 39%);
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+.font {
+  font-family: Fraunces;
+  color: black;
+}
+.size {
+  font-size: 60px;
+}
+.myrow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mycol-6 {
+  width: 50%;
+}
+.mycol-4 {
+  width: 33.33%;
+}
+.mycol-3 {
+  width: 25%;
+}
+.background {
+  width: 100%;
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.buttons {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.Mybtn {
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  width: 80px;
+  border-radius: 30px;
+  transition: 0.3s;
+  padding-top: 6px;
+}
+
+.Mybtn:hover {
+  background-color: white;
+  color: black;
+}
+
+.arrow {
+  font-family: Fraunces;
+  color: white;
+  letter-spacing: 8px;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  left: 25%;
+  top: 25%;
+}
+.arrow img {
+  margin-top: 100px;
+}
+
+.description {
+  padding: 140px;
+}
+.description p {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.description span {
+  font-family: Fraunces;
+  color: black;
+  font-size: 25px;
+  text-decoration: underline 6px hsl(7, 99%, 70%);
+}
+
+.testimonials {
+  text-align: center;
+  margin: 100px;
+}
+.clients {
+  text-align: center;
+  margin-top: 90px;
+  color: hsl(210, 4%, 67%);
+  letter-spacing: 5px;
+}
+.chrctr {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+}
+.testi {
+  padding: 0 45px;
+  line-height: 40px;
+}
+.footer {
+  background-color: cadetblue;
+  text-align: center;
+  padding-top: 40px;
+}
+a {
+  text-decoration: none;
+}
+.edit a {
+  padding: 0 30px;
+  color: hsl(168, 34%, 41%);
+  line-height: 80px;
+}
+/* .contact a {
+    padding: 0 20px;
+    color: hsl(168, 34%, 41%);
+}  */
+
+@media only screen and (max-width: 1000px) {
+  .mycol-6 {
+    width: 100%;
+  }
+  .mycol-4 {
+    width: 100%;
+  }
+  .mycol-3 {
+    width: 50%;
+  }
+  .background {
+    width: 100%;
+    margin: 0;
+  }
+  .size {
+    font-size: 30px;
+  }
+  .description {
+    padding: 40px;
+  }
+  .buttons {
+    width: 84px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    right: 20px;
+   
+  }
+0
+
+
+
+  .arrow {
+    font-size: 10px;
+    letter-spacing: 6px;
+
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    top: 5%;
+  }
+  .arrow img {
+    display: none;
+  }
+
+  .testimonials {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .clients {
+    text-align: center;
+    margin-top: 90px;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+
+  .gallery {
+    position: relative;
+  }
+}
